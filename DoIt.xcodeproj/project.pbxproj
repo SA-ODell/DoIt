@@ -15,6 +15,7 @@
 		2B3D8B981EB599BF00665AA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B3D8B961EB599BF00665AA4 /* LaunchScreen.storyboard */; };
 		2B3D8BA31EB599BF00665AA4 /* DoItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3D8BA21EB599BF00665AA4 /* DoItTests.swift */; };
 		2B3D8BAE1EB599BF00665AA4 /* DoItUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3D8BAD1EB599BF00665AA4 /* DoItUITests.swift */; };
+		2B3D8BBC1EB59EE800665AA4 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3D8BBB1EB59EE800665AA4 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		2B3D8BA91EB599BF00665AA4 /* DoItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DoItUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B3D8BAD1EB599BF00665AA4 /* DoItUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoItUITests.swift; sourceTree = "<group>"; };
 		2B3D8BAF1EB599BF00665AA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B3D8BBB1EB59EE800665AA4 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				2B3D8B8A1EB599BF00665AA4 /* AppDelegate.swift */,
 				2B3D8B8C1EB599BF00665AA4 /* ViewController.swift */,
 				2B3D8B8E1EB599BF00665AA4 /* Main.storyboard */,
+				2B3D8BBB1EB59EE800665AA4 /* Task.swift */,
 				2B3D8B941EB599BF00665AA4 /* Assets.xcassets */,
 				2B3D8B961EB599BF00665AA4 /* LaunchScreen.storyboard */,
 				2B3D8B991EB599BF00665AA4 /* Info.plist */,
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B3D8BBC1EB59EE800665AA4 /* Task.swift in Sources */,
 				2B3D8B931EB599BF00665AA4 /* DoIt.xcdatamodeld in Sources */,
 				2B3D8B8D1EB599BF00665AA4 /* ViewController.swift in Sources */,
 				2B3D8B8B1EB599BF00665AA4 /* AppDelegate.swift in Sources */,
